@@ -13,6 +13,8 @@ body {
     color: #fff;
     font-size: 16px;
     overflow: hidden;
+    margin: 0; /* Garante que não haja margens extras */
+    position: relative; /* Posição relativa para conteúdo */
 }
 
 
@@ -39,6 +41,7 @@ header {
     gap: 5px;
     z-index: 2;
     /* header tinha ficado escondido*/
+    
 
 
     & nav {
@@ -365,5 +368,42 @@ section {
 
         }
     }
+}
 
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: white;
+    width: 100%;
+    margin-top: auto; 
+    position: fixed; 
+    bottom: 0; 
+}
+
+.links-footer {
+    display: flex;
+    gap: 10px;
+    color: white;
+}
+
+.social-media:hover {
+    opacity: .8;
+}
+
+.social-media:active {
+    opacity: .4;
+}
+
+
+
+.social-media {
+    width: 30px;
+}
+
+.develop {
+    color: white;
+    font-weight: bold;
 }
