@@ -301,7 +301,7 @@ section {
 
                 }
 
-
+                
             }
 
 
@@ -369,6 +369,11 @@ section {
         }
     }
 }
+
+.moto-img:nth-child(2) {
+    background: black;
+}
+
 
 .footer-container {
     display: flex;

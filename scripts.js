@@ -53,3 +53,21 @@ nextButton.onclick = () => {
 
 }
 
+
+const backgrounds = [
+    'radial-gradient(circle, rgb(58,79,252) 44%, rgba(36, 31, 31, 1) 100%)',
+    'radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%)',
+    'radial-gradient(circle, rgba(0,0,0,1) 0%, rgb(83,218,71) 100%)',
+    'radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(59,52,52,1) 100%)',
+];
+let currentIndex = 0;
+
+document.getElementById('next').addEventListener('click', () => {
+    currentIndex = (currentIndex + 1) % backgrounds.length;
+    document.querySelector('.container').style.background = backgrounds[currentIndex];
+});
+
+document.getElementById('prev').addEventListener('click', () => {
+    currentIndex = (currentIndex - 1 + backgrounds.length) % backgrounds.length;
+    document.querySelector('.container').style.background = backgrounds[currentIndex];
+});
