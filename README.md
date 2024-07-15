@@ -7,7 +7,7 @@
   HTML, CSS e JavaScript.
 <br>
   <br>
-Nesse exemplo, usamos o HTML para criar a base do site, o CSS para estilização e personalização das imagens, botões e posicionamentos e o JavaScript dando funções aos botões para troca das imagens, informoações e também som ao clicar</h2>
+Nesse exemplo, usamos o HTML para criar a base do site, o CSS para estilização e personalização das imagens, botões e posicionamentos e o JavaScript dando funções aos botões para troca das imagens, informações e também som ao clicar</h2>
 <br>
 <br>
 
